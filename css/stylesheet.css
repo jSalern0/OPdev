@@ -23,6 +23,29 @@ header::after {
   
 }
 
+.bar {
+  width: 95%;
+  margin: 1%;
+  float: left;
+  font-family: 'Roboto';
+  font-weight: ;
+  padding: auto;
+  
+}
+
+nav {
+  float: right;
+    
+}
+
+nav a {
+  color: #000000;
+  text-decoration-color: black;
+  font-size: 15px;
+}
+
+
+
 body {
     background: #000000;
     color: #FBFCFF;
