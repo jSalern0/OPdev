@@ -1,26 +1,55 @@
-/* Glossary
-font color #FBFCFF
-background #000000
-*/
-
-
 html {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+ img.ju {
+    position: fixed;
+    top: 0;
+ }
 
 header {
-  background: #FBFCFF;
-  
-  
-      
+  background: #FBFCFF;  
 }
 
 header::after {
   content: '';
   display: table;
-  clear: both;
-  
+  clear: both;  
+}
+
+body {
+    background: #000000;
+    color: #FBFCFF;
+  margin: auto;
+  font-family: 'Roboto+Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Roboto';
+  line-height: 0;      
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Roboto';
+  line-height: 0%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;        
+}
+
+h3 {
+  font-style: italic;
+  font-size: 25px;    
+}
+
+p {
+  margin-top: -0%;
+  font-size: 18px;
+  max-width: 1000px;
+  margin: auto;
+  padding-bottom: 2%;
 }
 
 .bar {
@@ -29,19 +58,11 @@ header::after {
   float: left;
   font-family: 'Roboto';
   font-weight: ;
-  padding: auto;
-  
+  padding: auto;  
 }
 
 nav {
-  float: right;
-    
-}
-
-nav a {
-  color: #000000;
-  text-decoration-color: black;
-  font-size: 15px;
+  float: right;   
 }
 
 nav ul {
@@ -57,14 +78,99 @@ nav li {
   position: relative;
 }
 
-body {
-    background: #000000;
-    color: #FBFCFF;
-    margin: auto;
-    font-family: 'Roboto+Condensed', sans-serif;
+nav a {
+  color: #000000;
+  text-decoration-color: black;
+  font-size: 15px;
 }
 
-body p {
-    font-size: 18px;
+nav a:hover {
+  color: #000000;
+  opacity: 0.3;
 }
 
+.name-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top: 10%;    
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin-bottom: 10%;
+}
+
+.About {
+  background: white;
+  color: black;
+}
+
+.projects {
+  background: black;
+  color: white;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin: auto;
+  padding: 60px;
+}
+
+.contact h2 {
+  margin-top: auto;
+  padding: 30px 3%;
+  background-color: white;
+  border: 4px solid black;
+}
+
+footer {
+  background: #FBFCFF;
+  color: #000000;
+}
+
+footer ul {
+  align-items: center;
+  display: inline-block;
+  padding: 30px;
+  margin-top: auto;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  color: grey;
+}
+
+.fa-instagram {
+  color: grey;
+}
+
+.fa-linkedin {
+  color: grey;
+}
