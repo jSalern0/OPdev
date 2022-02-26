@@ -1,0 +1,36 @@
+/* Glossary
+font color #FBFCFF
+background #000000
+*/
+
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+  background: #FBFCFF;
+  
+  
+      
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+  
+}
+
+body {
+    background: #000000;
+    color: #FBFCFF;
+    margin: auto;
+    font-family: 'Roboto+Condensed', sans-serif;
+}
+
+body p {
+    font-size: 18px;
+}
+
