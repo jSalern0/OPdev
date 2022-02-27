@@ -1,2 +1,0 @@
-# OPdev
-Online Presence Development
